@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(../../dest/images/background-image.jpg);
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 238px;
+
+    &__content__jth {
+        padding-top: 15%;
+
+        h1 {
+            padding-bottom: 12px;
+            text-align: center;
+            color: white;
+        }
+
+        img {
+            width: 300px;
+        }
+    }
+}
+
+.supernatural {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 238px;
+
+    &__synopsys {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 450px;
+            height: 600px;
+            padding: 10px 0px 10px 10px;
+        }
+
+        li {
+            list-style: none;
+            padding: 0px 0 10px 40px;
+            color: white;
+        }
+    }
+
+    .fourteen-age {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+}
+
+.supernatural__actors {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+
+    h1 {
+        color: white;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    &__starring {
+
+        img {
+            padding-bottom: 30px;
+            width: 290px;
+            height: 400px;
+
+        }
+
+        li {
+            display: inline;
+        }
+    }
+
+    .spacement {
+        padding-right: 40px;
+    }
+}
